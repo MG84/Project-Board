@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="mtgProjectBoard" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="mtgProjectBoard" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="mtgProjectBoard" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="mtgProjectBoard" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <!-- fix font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="cover.css">
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+          <div class="inner cover">
+            <h1 class="cover-heading">Mind The Guide Project Board</h1>
+            <p class="lead">Visit our website at <a href="http;//mindtheguide.com">http://mindtheguide.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <ul class="nav nav-tabs" ng-controller="TabsCtrl">
+    <li ng-class="tabClass(tab)" ng-repeat="tab in tabs" tab="tab">
+      <a href="{{tab.link}}" ng-click="setSelectedTab(tab)">{{tab.label}}</a>
+    </li>
+  </ul>
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div ng-view></div>
+  <br/>
+  <div>MTG Project Board app: v<span app-version></span></div>
+
+  <!-- In production use:-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+
+<!--
+  <script src="bower_components/angular/angular.js"></script>-->
+  <script src="bower_components/angular-route/angular-route.js"></script>
+
+  <script src="app.js"></script>
+  <script src="team/team.js"></script>
+  <script src="sprint/sprint.js"></script>
+  <script src="resources/resources.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+</body>
+</html>

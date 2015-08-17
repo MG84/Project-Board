@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "name": "Retrieve and Study Current Website Code and Data Architecture",
+    "category": "DEV",
+    "importance": "100",
+    "estimation": "4.0",
+    "demo": "Screenshot of the code structure",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 4.0"
+  },
+  {
+    "id": "2",
+    "name": "Fixing Cap Table",
+    "category": "Organization",
+    "importance": "90",
+    "estimation": "0.5",
+    "demo": "Screenshot of Agreement with 2nd Associate",
+    "notes": "",
+    "links": "",
+    "assigned": "Dario 0.5"
+  },
+  {
+    "id": "3",
+    "name": "Team Empowerment: Find a CMO",
+    "category": "Team Management",
+    "importance": "80",
+    "estimation": "0.5",
+    "demo": "CV new candidate",
+    "notes": "",
+    "links": "",
+    "assigned": "Dario 0.5"
+  },
+  {
+    "id": "4",
+    "name": "Marketing Campaign: Set up and monitor adwords campaigns",
+    "category": "Marketing",
+    "importance": "70",
+    "estimation": "0.5",
+    "demo": "Report and numbers of AdWords Campaign",
+    "notes": "",
+    "links": "",
+    "assigned": "Dario 0.5"
+  },
+  {
+    "id": "5",
+    "name": "Mind The Guide Operation: organize and execute 6 guided tours",
+    "category": "Organization",
+    "importance": "60",
+    "estimation": "3",
+    "demo": "Screenshot new booked tours",
+    "notes": "",
+    "links": "",
+    "assigned": "Dario 3"
+  },
+  {
+    "id": "6",
+    "name": "Prepare Demo Day presentation",
+    "category": "Team Organization",
+    "importance": "50",
+    "estimation": "1.0",
+    "demo": "Presentation of the results of the sprint",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 1.0"
+  }
+]

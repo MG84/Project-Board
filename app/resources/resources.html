@@ -1,0 +1,40 @@
+<div ng-controller="ResourcesCtrl">
+
+  <br/>
+  <br/>
+  <br/>
+
+
+  <div class="row">
+    <!--<div class="col-sm-4 col-md-4">-->
+    <div class="col-md-8">
+      <img src="static/img/resources.png" class="social">
+        Resources
+      <br/>
+      <br/>
+      Search: <input ng-model="query">
+      <div ng-repeat="resource in resources | filter:query" class="resources-box">
+        <div align="left"><strong>Name:</strong> <a href="{{resource.url}}" target="_blankMTG_directory.pdf">{{resource.name}}</a></div>
+        <div align="left"><strong>Description:</strong> {{resource.description}}</div>
+      </div>
+    </div>
+
+    <!--<div class="col-sm-4 col-md-4">-->
+      <!--&lt;!&ndash; Decide what to put here &ndash;&gt;-->
+    <!--</div>-->
+
+    <div class="col-sm-4 col-md-4">
+      Social:
+      <br/>
+      <br/>
+      <img src="static/img/fb.png" class="social">
+      <a href='http://facebook.com/mindtheguide'>/mindtheguide</a>
+      <br/>
+      <br/>
+      <img src="static/img/tw.png" class="social">
+      <a href='http://twitter.com/mindtheguide'>/mindtheguide</a>
+    </div>
+
+  </div>
+
+</div>

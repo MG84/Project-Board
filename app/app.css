@@ -1,0 +1,129 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+
+.resources .sprints .stories {
+  list-style: none;
+}
+
+.resources .sprints .stories li {
+  clear: both;
+  height: 115px;
+  padding-top: 15px;
+}
+
+thumb {
+  float: left;
+  margin: -0.5em 1em 1.5em 0;
+  padding-bottom: 1em;
+  height: 100px;
+  width: 100px;
+}
+
+.thumbnail {
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* SPRINT */
+
+.sprint-box {
+    display: block;
+    border: solid;
+    border-color: lightblue;
+    border-width: thin;
+    margin: 0.4em;
+}
+
+.sprint-box-dates div {
+  float: left;
+  clear: none;
+}
+
+.sprint-box-id div {
+  border: solid;
+  border-width: thin;
+}
+
+.sprint-main-box {
+    display: block;
+    border: double;
+    border-color: lightblue;
+    border-width: initial;
+    padding: 0.3em;
+}
+
+/* STORY */
+
+.story-box-info div {
+  float: left;
+  clear: none;
+}
+
+.story-box {
+    display: block;
+    border: solid;
+    border-color: lightblue;
+    border-width: thin;
+    max-width: 30%;
+    margin-bottom: 4em;
+    margin-left: 0.5em;
+}
+
+.container-story {
+    padding-left: 5.5em;
+}
+
+/* RESOURCES */
+
+.resources-box {
+    display: block;
+    border: solid;
+    border-color: lightblue;
+    border-width: 0.1em;
+    margin-top: 0.8em;
+    padding: 0.3em;
+}
+
+.social {
+  width: 2em;
+}
+
+/* TEAM */
+.our-team {
+  text-align: center;
+}
+
+.l_d {
+  margin-top: 40px;
+  margin-left: 40px;
+}

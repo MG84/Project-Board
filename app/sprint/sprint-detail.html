@@ -1,0 +1,73 @@
+<div class="container">
+    <br/>
+    <div class="row">
+        <div class="sprint-main-box">
+            <div>
+                <br/>
+                <div style="float: left;">
+                    <strong>Sprint #:</strong> {{sprint.id}}
+                </div>
+                <div style="float: right;">
+                    <strong>MD:</strong>
+                    {{sprint.estimation}}
+                </div>
+                <br/>
+                <div align="center">
+                    <strong>GOAL:</strong><br/>
+                    {{sprint.goal}}
+                </div>
+                <div style="float: left;">
+                    <strong>Start:</strong> {{sprint.start}}
+                </div>
+                <div style="float: right;">
+                    <strong>End:</strong> {{sprint.end}}
+                </div>
+                <br/>
+                <br/>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+<br/>
+
+<div>
+    Search: <input ng-model="query">
+</div>
+<br/>
+<br/>
+<div class="container-story">
+    <div class="row">
+        <div ng-repeat="story in stories | filter:query" class="story-box col-md-2">
+            <br/>
+
+            <div align="center">
+                <strong>ID: {{story.id}}</strong>
+            </div>
+            <div style="float: left;">
+                <strong>Weight:</strong> {{story.importance}}
+            </div>
+            <div style="float: right;">
+                <strong>MD:</strong> {{story.estimation}}
+            </div>
+            <br/>
+            <hr>
+            <div align="center">
+                <a href="#/sprint/{{sprint.id}}">{{story.name}}</a>
+            </div>
+            <hr/>
+            <div align="center"><strong>Category:</strong><br/>{{story.category}}</div>
+            <hr/>
+            <div align="center"><strong>Demo:</strong><br/>{{story.demo}}</div>
+            <hr/>
+            <div align="left">
+                Notes: {{story.notes}}<br/>
+                Links: {{story.links}}
+            </div>
+            <div align="right">{{story.assigned}}</div>
+
+        </div>
+
+    </div>
+</div>

@@ -30,7 +30,6 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
     }
 
     $scope.setSelectedTab = function(tab) {
-        debugger;
       $scope.selectedTab = tab;
     }
 

@@ -35,6 +35,16 @@ body {
  /* text-shadow: 0 1px 3px rgba(0,0,0,.5); */
 }
 
+.cover-heading {
+    color: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.lead, .lead > a {
+    color: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -47,6 +57,12 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
+  background-image: url("static/img/tourists-visiting-rome-colosseum.jpg");
+  background-size: auto;
+  background-position-y: -300px;
+  background-repeat: no-repeat;
+}
+
 }
 .cover-container {
   margin-right: auto;

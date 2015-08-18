@@ -62,6 +62,7 @@ thumb {
     border-color: lightblue;
     border-width: thin;
     margin: 0.4em;
+    background-color: white;
 }
 
 .sprint-box-dates div {
@@ -80,6 +81,7 @@ thumb {
     border-color: lightblue;
     border-width: initial;
     padding: 0.3em;
+    background-color: white;
 }
 
 /* STORY */
@@ -97,6 +99,7 @@ thumb {
     max-width: 30%;
     margin-bottom: 4em;
     margin-left: 0.5em;
+    background-color: white;
 }
 
 .container-story {
@@ -112,6 +115,7 @@ thumb {
     border-width: 0.1em;
     margin-top: 0.8em;
     padding: 0.3em;
+    background-color: white;
 }
 
 .social {

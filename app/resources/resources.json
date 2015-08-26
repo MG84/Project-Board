@@ -33,5 +33,10 @@
     "name": "New DB model",
     "description": "A ER schema for DB refactoring",
     "url": "static/docs/MTG_newDBmodel.pdf"
+  },
+  {
+    "name": "Key Activity List",
+    "description": "Define key activities and process flow for: customer service, tour delivery and booking",
+    "url": "static/docs/KeyActivityList.pdf"
   }
 ]

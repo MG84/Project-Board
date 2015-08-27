@@ -38,5 +38,10 @@
     "name": "Key Activity List",
     "description": "Define key activities and process flow for: customer service, tour delivery and booking",
     "url": "static/docs/KeyActivityList.pdf"
+  },
+  {
+    "name": "Demo",
+    "description": "Second Sprint Demo: 27/08/2015",
+    "url": "static/docs/Demo2015-827.pdf"
   }
 ]

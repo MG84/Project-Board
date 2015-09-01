@@ -43,5 +43,15 @@
     "name": "Demo",
     "description": "Second Sprint Demo: 27/08/2015",
     "url": "static/docs/Demo20150827.pdf"
+  },
+  {
+    "name": "City Manager Job Offer Indeed",
+    "description": "Post of city manager job offer on indeed",
+    "url": "static/docs/[JOB-OFFER]CM_Indeed20150901.png"
+  },
+  {
+    "name": "City Manager Job Offer InfoJobs",
+    "description": "Post of city manager job offer on InfoJobs",
+    "url": "static/docs/[JOB-OFFER]CM_Infojobs20150901.png"
   }
 ]

@@ -100,17 +100,6 @@
   },
   {
     "id": "10",
-    "name": "City Manager Job Offer",
-    "category": "Team Management",
-    "importance": "45",
-    "estimation": "0.5",
-    "demo": "Write a job offer for city manager",
-    "notes": "",
-    "links": "",
-    "assigned": "Marco 0.5"
-  },
-  {
-    "id": "11",
     "name": "New Tour Ancient Rome Available",
     "category": "Organization",
     "importance": "30",
@@ -121,7 +110,7 @@
     "assigned": "Dario 2.0"
   },
   {
-    "id": "12",
+    "id": "11",
     "name": "New Confirmation Mail Campaign",
     "category": "Marketing",
     "importance": "25",
@@ -132,7 +121,7 @@
     "assigned": "Marco 0.5"
   },
   {
-    "id": "13",
+    "id": "12",
     "name": "Prepare demo presentation",
     "category": "Organization",
     "importance": "20",

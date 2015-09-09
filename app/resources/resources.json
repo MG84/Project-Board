@@ -53,5 +53,10 @@
     "name": "City Manager Job Offer InfoJobs",
     "description": "Post of city manager job offer on InfoJobs",
     "url": "static/docs/[JOB-OFFER]CM_Infojobs20150901.png"
+  },
+  {
+    "name": "Demo",
+    "description": "Third Sprint Demo: 10/09/2015",
+    "url": "static/docs/Demo20150910.pdf"
   }
 ]

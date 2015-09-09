@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "goal": "Test and Release the new BackOffice with at least 5 guides",
+    "goal": "Testing the Guide Panel with at least 5 guides",
     "estimation": "16",
     "start": "31/08/2015",
     "end": "10/09/2015",

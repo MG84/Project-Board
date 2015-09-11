@@ -27,12 +27,12 @@
   {
     "name": "Current DB model",
     "description": "ERD model of our current database",
-    "url": "static/docs/MTG_currentDBmodel.pdf"
+    "url": "static/docs/MTG_currentDBmodel.png"
   },
   {
     "name": "New DB model",
     "description": "A ER schema for DB refactoring",
-    "url": "static/docs/MTG_newDBmodel.pdf"
+    "url": "static/docs/MTG_newDBmodel.png"
   },
   {
     "name": "Key Activity List",

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "1",
+    "name": "Testing guide panel with 6 guides",
+    "category": "Business Development",
+    "importance": "100",
+    "estimation": "1",
+    "demo": "Guides feedback",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 0.5, Dario 0.5"
+  },
+  {
+    "id": "2",
+    "name": "Buy 72 Underground Tour Tickets for the next 3 months",
+    "category": "Business Development",
+    "importance": "95",
+    "estimation": "2.0",
+    "demo": "Picture and Calendar",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 1.0, Dario 1.0"
+  },
+  {
+    "id": "3",
+    "name": "Schedule 15 tours availability from 7 guides for the next 3 months",
+    "category": "Business Development",
+    "importance": "90",
+    "estimation": "0.5",
+    "demo": "Calendar with guides availability",
+    "notes": "",
+    "links": "",
+    "assigned": "Dario 0.5"
+  },
+  {
+    "id": "4",
+    "name": "Release Guide and Admin Panel",
+    "category": "Development",
+    "importance": "85",
+    "estimation": "5",
+    "demo": "New backoffice on mindtheguide.com",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 4.0, Dario 1.0"
+  },
+  {
+    "id": "5",
+    "name": "Organize and Execute 14 tours",
+    "category": "Business Development",
+    "importance": "80",
+    "estimation": "4.5",
+    "demo": "Data of tours delivered",
+    "notes": "",
+    "links": "",
+    "assigned": "Dario 4.5"
+  },
+  {
+    "id": "6",
+    "name": "Mockup new Homepage",
+    "category": "Development",
+    "importance": "75",
+    "estimation": "1.0",
+    "demo": "Mockup new design",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 0.5, Dario 0.5"
+  },
+  {
+    "id": "7",
+    "name": "Budget Strategy for the next 3 months",
+    "category": "Business Development",
+    "importance": "70",
+    "estimation": "1.5",
+    "demo": "Masterplan",
+    "notes": "",
+    "links": "",
+    "assigned": "Dario 1.5"
+  },
+  {
+    "id": "8",
+    "name": "Invoice Guides August",
+    "category": "Business Development",
+    "importance": "60",
+    "estimation": "0.5",
+    "demo": "MTG Montly balance",
+    "notes": "",
+    "links": "",
+    "assigned": "Dario 0.5"
+  },
+  {
+    "id": "9",
+    "name": "Add new tour content",
+    "category": "Business Development",
+    "importance": "55",
+    "estimation": "1",
+    "demo": "New overview, descriptions, notes; AdWords Campaign",
+    "notes": "",
+    "links": "",
+    "assigned": "Dario 1.0"
+  },
+  {
+    "id": "10",
+    "name": "Choose and Interview at least 3 Candidates for CMO position",
+    "category": "Team Management",
+    "importance": "50",
+    "estimation": "1.0",
+    "demo": "CV",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 0.5, Dario 0.5"
+  },
+  {
+    "id": "11",
+    "name": "Post CMO Job Offer",
+    "category": "Team Management",
+    "importance": "45",
+    "estimation": "0.5",
+    "demo": "Email to Ludovica and Futura, post on FB groups",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 0.5"
+  },
+  {
+    "id": "12",
+    "name": "Meeting with Advisors",
+    "category": "Business Development",
+    "importance": "40",
+    "estimation": "2",
+    "demo": "Feedback and new proposals",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 1.0, Dario 1.0"
+  },
+  {
+    "id": "13",
+    "name": "Prepare sprint plan",
+    "category": "Business Development",
+    "importance": "35",
+    "estimation": "0.5",
+    "demo": "Sprint plan on board",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 0.5"
+  },
+  {
+    "id": "14",
+    "name": "Prepare demo presentation",
+    "category": "Business Development",
+    "importance": "30",
+    "estimation": "1.0",
+    "demo": "Demo presentation",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 1.0"
+  },
+]

@@ -58,5 +58,15 @@
     "name": "Demo",
     "description": "Third Sprint Demo: 10/09/2015",
     "url": "static/docs/Demo20150910.pdf"
-  }
+  },
+  {
+    "name": "Underground Tickets",
+    "description": "Tickets Underground October, November, December",
+    "url": "static/docs/UndergroundTours_Oct_Nov_Dec.pdf"
+  },
+  {
+    "name": "Wireframe Home Page Lorenzo",
+    "description": "Wireframe for the homepage by Lorenzo",
+    "url": "static/img/DesignerHomeMockup.jpg"
+  },
 ]

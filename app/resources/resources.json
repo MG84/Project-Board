@@ -68,5 +68,15 @@
     "name": "Wireframe Home Page Lorenzo",
     "description": "Wireframe for the homepage by Lorenzo",
     "url": "static/img/DesignerHomeMockup.jpg"
+  },
+  {
+    "name": "Demo",
+    "description": "Fourth Sprint Demo: 24/09/2015",
+    "url": "static/docs/Demo20150924.pdf"
+  },
+  {
+    "name": "Demo Marco",
+    "description": "Marco version - Fourth Sprint Demo: 24/09/2015",
+    "url": "static/docs/Demo20150924_Marco.pdf"
   }
 ]

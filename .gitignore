@@ -7,3 +7,4 @@ tmp
 .idea
 .htaccess
 .htpassword
+npm-debug.log

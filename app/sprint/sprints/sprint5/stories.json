@@ -12,14 +12,25 @@
   },
   {
     "id": "2",
-    "name": "Testing Guide and Admin Panel live with at least 4 Guides",
+    "name": "Release Guide and Admin Panel",
     "category": "Development",
+    "importance": "90",
+    "estimation": "1",
+    "demo": "New backoffice on mindtheguide.com",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 1"
+  },
+  {
+    "id": "2",
+    "name": "Testing Guide and Admin Panel live with at least 4 Guides",
+    "category": "Business Development",
     "importance": "85",
-    "estimation": "4",
+    "estimation": "1",
     "demo": "Guides Feedback",
     "notes": "",
     "links": "",
-    "assigned": "Marco 3, Dario 1.0"
+    "assigned": "Marco 0.5, Dario 0.5"
   },
   {
     "id": "3",
@@ -67,11 +78,11 @@
   },
   {
     "id": "7",
-    "name": "Prepare demo presentation",
+    "name": "Prepare retrospective presentation",
     "category": "Business Development",
     "importance": "30",
     "estimation": "0.5",
-    "demo": "Demo presentation",
+    "demo": "Retrospective presentation",
     "notes": "",
     "links": "",
     "assigned": "Marco 0.5"

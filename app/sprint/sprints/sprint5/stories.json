@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1",
+    "name": "Interview at least 6 candidates for Digital Marketing Position",
+    "category": "Team Management",
+    "importance": "100",
+    "estimation": "4",
+    "demo": "Curricula",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 2, Dario 2"
+  },
+  {
+    "id": "2",
+    "name": "Testing Guide and Admin Panel live with at least 4 Guides",
+    "category": "Development",
+    "importance": "85",
+    "estimation": "4",
+    "demo": "Guides Feedback",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 3, Dario 1.0"
+  },
+  {
+    "id": "3",
+    "name": "Organize and Execute 14 tours",
+    "category": "Business Development",
+    "importance": "80",
+    "estimation": "4.5",
+    "demo": "Data of tours delivered",
+    "notes": "",
+    "links": "",
+    "assigned": "Dario 4.5"
+  },
+  {
+    "id": "4",
+    "name": "Interview at least 3 Candidates for Customer Service position",
+    "category": "Team Management",
+    "importance": "50",
+    "estimation": "2.0",
+    "demo": "CV",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 1, Dario 1"
+  },
+  {
+    "id": "5",
+    "name": "Interview at least 3 Candidates for Ground Operator position",
+    "category": "Team Management",
+    "importance": "45",
+    "estimation": "2.0",
+    "demo": "CV",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 1, Dario 1"
+  },
+  {
+    "id": "6",
+    "name": "Prepare sprint plan",
+    "category": "Business Development",
+    "importance": "35",
+    "estimation": "0.5",
+    "demo": "Sprint plan on board",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 0.5"
+  },
+  {
+    "id": "7",
+    "name": "Prepare demo presentation",
+    "category": "Business Development",
+    "importance": "30",
+    "estimation": "0.5",
+    "demo": "Demo presentation",
+    "notes": "",
+    "links": "",
+    "assigned": "Marco 0.5"
+  }
+]

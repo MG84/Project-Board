@@ -42,7 +42,7 @@ To store your static files (images and docs) use the static folder
 ### Team
 
 To add a team member just add to the team.html file inside the team folder
-```
+```html
 <div class="col-sm-2 col-md-2 col-sm-offset-3">
   <div class="thumbnail">
     <img src="static/img/Mario.jpeg" alt="Sample image" class="img-circle" />
@@ -63,7 +63,7 @@ To add a team member just add to the team.html file inside the team folder
 Store a resource by adding it to the static folder.
 Use the resources.json file to make a resource available on your board.
 
-```
+```json
 
 [
   {
@@ -86,7 +86,7 @@ In resource.html add the links to your social network profiles
 Use the sprints.json file (sprint/sprints/sprint.json) to add a Sprint
 to your project Board
 
-```
+```json
 [
   {
     "id": "1",
@@ -107,7 +107,7 @@ N is the sprint number) with two files:
 sprint_N.json
 This file contains the information of the sprint you've just added in
 the sprint.json file.
-```
+```json
 {
   "id": "1",
   "goal": "<Sprint Goal>",
@@ -120,7 +120,7 @@ the sprint.json file.
 
 stories.json
 This file contains all the stories you have planned to work on during the sprint
-```
+```json
 [
   {
     "id": "1",

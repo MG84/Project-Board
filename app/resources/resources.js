@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mtgProjectBoard.resources', ['ngRoute'])
+angular.module('projectBoard.resources', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/resources', {

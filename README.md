@@ -79,6 +79,7 @@ Use the resources.json file to make a resource available on your board.
   ...
 ]
 ```
+In resource.html add the links to your social network profiles
 
 ### Sprint
 

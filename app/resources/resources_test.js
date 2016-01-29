@@ -1,9 +1,9 @@
 'use strict';
 
-describe('mtgProjectBoard.resources module', function() {
+describe('projectBoard.resources module', function() {
   var scope, ctrl, $httpBackend;
 
-  beforeEach(module('mtgProjectBoard.resources'));
+  beforeEach(module('projectBoard.resources'));
 
   describe('ResourcesCtrl', function(){
     // The injector ignores leading and trailing underscores here (i.e. _$httpBackend_).

@@ -2,7 +2,7 @@
 
 /* https://github.com/angular/protractor/blob/master/docs/toc.md */
 
-describe('mtg project Board', function() {
+describe('project Board', function() {
 
 
   it('should automatically redirect to /team when location hash/fragment is empty', function() {
@@ -34,24 +34,24 @@ describe('mtg project Board', function() {
       var sprintList = element.all(by.repeater('sprint in sprints'));
       var query = element(by.model('query'));
 
-      expect(sprintList.count()).toBe(2);
+      expect(sprintList.count()).toBe(1);
 
-      query.sendKeys('retrieve');
+      query.sendKeys('Sprint One');
       expect(sprintList.count()).toBe(1);
 
       query.clear();
 
-      query.sendKeys('work');
-      expect(sprintList.count()).toBe(1);
+      query.sendKeys('Two');
+      expect(sprintList.count()).toBe(0);
 
       query.clear();
       query.sendKeys('08');
-      expect(sprintList.count()).toBe(2);
+      expect(sprintList.count()).toBe(1);
     });
 
     it('should render sprint specific links', function(){
       var query = element(by.model('query'));
-      query.sendKeys('retrieve');
+      query.sendKeys('One');
       element(by.css('.sprint-box a')).click();
       browser.getLocationAbsUrl().then(function(url){
         expect(url).toEqual('/sprint/1');
@@ -71,7 +71,7 @@ describe('mtg project Board', function() {
 
     it('should display a sprint detail page with 6 stories', function() {
       var storiesList = element.all(by.repeater('story in stories'));
-      expect(storiesList.count()).toBe(6);
+      expect(storiesList.count()).toBe(2);
     });
 
   });
@@ -91,12 +91,12 @@ describe('mtg project Board', function() {
 
       expect(resourcesList.count()).toBe(2);
 
-      query.sendKeys('#1');
+      query.sendKeys('first');
       expect(resourcesList.count()).toBe(1);
 
       query.clear();
 
-      query.sendKeys('#2');
+      query.sendKeys('second');
       expect(resourcesList.count()).toBe(1);
 
       query.clear();

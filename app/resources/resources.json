@@ -2,6 +2,11 @@
   {
     "name": "Our first resource",
     "description": "An Amazing Resource",
-    "url": "<path_to_resource>"
+    "url": "<path_to_first_resource>"
+  },
+  {
+    "name": "Our second resource",
+    "description": "An Amazing Second Resource",
+    "url": "<path_to_second_resource>"
   }
 ]

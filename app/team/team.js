@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mtgProjectBoard.team', ['ngRoute'])
+angular.module('projectBoard.team', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/team', {

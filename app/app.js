@@ -1,12 +1,12 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-angular.module('mtgProjectBoard', [
+angular.module('projectBoard', [
   'ngRoute',
-  'mtgProjectBoard.team',
-  'mtgProjectBoard.sprint',
-  'mtgProjectBoard.resources',
-  'mtgProjectBoard.version'
+  'projectBoard.team',
+  'projectBoard.sprint',
+  'projectBoard.resources',
+  'projectBoard.version'
 ]).
 config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
   $routeProvider.otherwise({redirectTo: '/team'});

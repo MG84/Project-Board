@@ -1,9 +1,9 @@
 'use strict';
 
-describe('mtgProjectBoard.sprint module', function() {
+describe('projectBoard.sprint module', function() {
   var scope, ctrl, $httpBackend;
 
-  beforeEach(module('mtgProjectBoard.sprint'));
+  beforeEach(module('projectBoard.sprint'));
 
   describe('SprintCtrl', function(){
     // The injector ignores leading and trailing underscores here (i.e. _$httpBackend_).

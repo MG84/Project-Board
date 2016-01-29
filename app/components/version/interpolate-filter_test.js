@@ -1,7 +1,7 @@
 'use strict';
 
-describe('mtgProjectBoard.version module', function() {
-  beforeEach(module('mtgProjectBoard.version'));
+describe('projectBoard.version module', function() {
+  beforeEach(module('projectBoard.version'));
 
   describe('interpolate filter', function() {
     beforeEach(module(function($provide) {

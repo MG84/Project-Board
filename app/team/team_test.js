@@ -1,8 +1,8 @@
 'use strict';
 
-describe('mtgProjectBoard.team module', function() {
+describe('projectBoard.team module', function() {
 
-  beforeEach(module('mtgProjectBoard.team'));
+  beforeEach(module('projectBoard.team'));
 
   describe('team controller', function(){
 

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mtgProjectBoard.sprint', ['ngRoute'])
+angular.module('projectBoard.sprint', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/sprint', {

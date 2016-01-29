@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('mtgProjectBoard.version', [
-  'mtgProjectBoard.version.interpolate-filter',
-  'mtgProjectBoard.version.version-directive'
+angular.module('projectBoard.version', [
+  'projectBoard.version.interpolate-filter',
+  'projectBoard.version.version-directive'
 ])
 
 .value('version', '0.1');

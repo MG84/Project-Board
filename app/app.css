@@ -40,14 +40,6 @@
   padding-top: 15px;
 }
 
-thumb {
-  float: left;
-  margin: -0.5em 1em 1.5em 0;
-  padding-bottom: 1em;
-  height: 100px;
-  width: 100px;
-}
-
 .thumbnail {
   border-radius: 25px;
   padding-top: 10px;
@@ -125,6 +117,11 @@ thumb {
 /* TEAM */
 .our-team {
   text-align: center;
+}
+
+/* Just for mario and luigi pics */
+.img-circle {
+  max-height: 7em;
 }
 
 .l_d {

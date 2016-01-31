@@ -58,7 +58,7 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
-  background-image: url("static/img/tourists-visiting-rome-colosseum.jpg");
+  background-image: url("static/img/sfondo-coworking.jpg");
   background-size: auto;
   background-position-y: -300px;
   background-repeat: no-repeat;
@@ -178,4 +178,3 @@ body {
     width: 700px;
   }
 }
-

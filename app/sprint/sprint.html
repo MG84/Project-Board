@@ -1,40 +1,44 @@
 <div ng-controller="SprintCtrl">
-    <br/>
-    <br/>
-    <div>
-        Search: <input ng-model="query">
-    </div>
-    <br/>
-    <br/>
-    <br/>
+	<br/>
+	<br/>
+	<div>
+		Search: <input ng-model="query">
+	</div>
+	<br/>
+	<br/>
+	<br/>
 
-    <div class="container">
-        <div class="row">
-            <div ng-repeat="sprint in sprints | filter:query" class="sprint-box col-md-3">
-                <br/>
-                <div style="float: left;">
-                    <strong>ID:</strong> {{sprint.id}}
-                </div>
-                <div style="float: right;">
-                    <strong>MD:</strong>
-                    {{sprint.estimation}}
-                </div>
-                <br/>
-                <hr>
-                <div align="center">
-                    <a href="#/sprint/{{sprint.id}}">{{sprint.goal}}</a>
-                </div>
-                <hr>
-                <div style="float: left;">
-                    <strong>Start:</strong> {{sprint.start}}
-                </div>
-                <div style="float: right;">
-                    <strong>End:</strong> {{sprint.end}}
-                </div>
-                <br/>
-                <br/>
-                <p align="center"><a class="btn btn-default" href="#/sprint/{{sprint.id}}" role="button">View details &raquo;</a></p>
-            </div>
-        </div>
-    </div>
+	<div class="container">
+		<div class="row">
+			<div ng-repeat="sprint in sprints | filter:query" class="sprint-box col-md-3">
+				<br/>
+				<div style="float: left;">
+					<strong>ID:</strong> {{sprint.id}}
+				</div>
+				<div style="float: right;">
+					<strong>MD:</strong>
+					{{sprint.estimation}}
+				</div>
+				<br/>
+				<hr>
+				<div align="center">
+					<a href="#/sprint/{{sprint.id}}">{{sprint.goal}}</a>
+				</div>
+				<hr>
+				<div style="float: left;">
+					<strong>Start:</strong> {{sprint.start}}
+				</div>
+				<div style="float: right;">
+					<strong>End:</strong> {{sprint.end}}
+				</div>
+				<br/>
+				<br/>
+				<p align="center">
+					<a class="btn btn-default" href="#/sprint/{{sprint.id}}" role="button">
+						View details &raquo;
+					</a>
+				</p>
+			</div>
+		</div>
+	</div>
 </div>

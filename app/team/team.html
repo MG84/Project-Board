@@ -1,38 +1,24 @@
 <div class="our-team">
-	<div class="container">
-		<div class="page-header">
-			<h1 class="text-center">Welcome to our team</h1>
-		</div>
+    <div class="container">
+        <div class="page-header">
+            <h1 class="text-center">Welcome to our team</h1>
+        </div>
 
-		<div class="row">
-			<!-- Team members -->
-			<div class="col-sm-3 col-md-3 col-sm-offset-2">
-				<div class="thumbnail">
-					<img src="static/img/Super_mario.png" alt="Sample image" class="img-circle" />
-					<div class="caption">
-						<h3>Mario Bros</h3>
-						<p>CEO</p>
-						<p>
-							<a role="button" class="btn btn-default" href="mailto:mario.bros@nintendo.com"><i class="fa fa-envelope"></i></a>
-							<a role="button" class="btn btn-default" href="https://it.linkedin.com/pub/fake-mario-bros"><i class="fa fa-linkedin"></i></a>
-						</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-sm-3 col-md-3 col-sm-offset-2">
-				<div class="thumbnail">
-					<img src="static/img/Luigi.jpg" alt="Sample image" class="img-circle" />
-					<div class="caption">
-						<h3>Super Luigi</h3>
-						<p>CTO</p>
-						<p>
-							<a role="button" class="btn btn-default" href="mailto:super.luigi@nintendo.com"><i class="fa fa-envelope"></i></a>
-							<a role="button" class="btn btn-default" href="https://it.linkedin.com/pub/fake-super-luigi"><i class="fa fa-linkedin"></i></a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+        <div class="row">
+            <!-- Team members -->
+            <div class="col-sm-3 col-md-3 col-sm-offset-2" ng-repeat="member in team">
+                <div class="thumbnail">
+                    <img ng-src="{{member.avatar}}" alt="{{member.name}}" class="img-circle"/>
+                    <div class="caption">
+                        <h3>{{member.name}}</h3>
+                        <p>{{member.role}}</p>
+                        <p>
+                            <a role="button" class="btn btn-default" ng-href="mailto:{{member.email}}"><i class="fa fa-envelope"></i></a>
+                            <a role="button" class="btn btn-default" ng-href="{{social.link}}" ng-repeat="social in member.social"><i class="fa fa-{{social.name}}"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

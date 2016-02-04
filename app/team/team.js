@@ -9,6 +9,8 @@ angular.module('projectBoard.team', ['ngRoute'])
   });
 }])
 
-.controller('TeamCtrl', [function() {
-
+.controller('TeamCtrl', ['$scope', '$http', function ($scope, $http) {
+  $http.get('team/team.json').success(function (data) {
+    $scope.team = data;
+  });
 }]);

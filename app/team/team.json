@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Mario Bros",
+    "avatar": "static/img/Super_mario.png",
+    "role": "CEO",
+    "email": "mario.bros@nintendo.com",
+    "social": [
+      {
+        "name": "linkedin",
+        "link": "https://it.linkedin.com/pub/fake-mario-bros"
+      },
+      {
+        "name": "twitter",
+        "link": "https://twitter.com/fake-super-luigi"
+      }
+    ]
+  },
+  {
+    "name": "Super Luigi",
+    "avatar": "static/img/Luigi.jpg",
+    "role": "CTO",
+    "email": "super.luigi@nintendo.com",
+    "social": [
+      {
+        "name": "linkedin",
+        "link": "https://it.linkedin.com/pub/fake-super-luigi"
+      },
+      {
+        "name": "twitter",
+        "link": "https://twitter.com/fake-super-luigi"
+      }
+    ]
+  }
+]

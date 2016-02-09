@@ -42,20 +42,45 @@ To store your static files (images and docs) use the static folder
 ### Team
 
 To add a team member just add to the team.html file inside the team folder
-```html
-<div class="col-sm-2 col-md-2 col-sm-offset-3">
-  <div class="thumbnail">
-    <img src="static/img/Mario.jpeg" alt="Sample image" class="img-circle" />
-    <div class="caption">
-      <h3>Mario Rossi</h3>
-      <p>CEO</p>
-      <p>
-        <a role="button" class="btn btn-default" href="mailto:mario.rossi@startup.com"><i class="fa fa-envelope"></i></a>
-        <a role="button" class="btn btn-default" href="https://it.linkedin.com/pub/fake-mario-rossi"><i class="fa fa-linkedin"></i></a>
-      </p>
-    </div>
-  </div>
-</div>
+Use the team.json file to add/edit the team profile
+for the social icon please refer to https://fortawesome.github.io/Font-Awesome/cheatsheet/ and set the social name with the name linked to the icon
+```json
+[
+  {
+    "name": "Mario Bros",
+    "avatar": "static/img/Super_mario.png",
+    "role": "CEO",
+    "email": "mario.bros@nintendo.com",
+    "social": [
+      {
+        "name": "linkedin",
+        "link": "https://it.linkedin.com/pub/fake-mario-bros"
+      },
+      {
+        "name": "twitter",
+        "link": "https://twitter.com/fake-super-luigi"
+      }
+    ]
+  },
+  {
+    "name": "Super Luigi",
+    "avatar": "static/img/Luigi.jpg",
+    "role": "CTO",
+    "email": "super.luigi@nintendo.com",
+    "social": [
+      {
+        "name": "linkedin",
+        "link": "https://it.linkedin.com/pub/fake-super-luigi"
+      },
+      {
+        "name": "twitter",
+        "link": "https://twitter.com/fake-super-luigi"
+      }
+    ]
+  }
+  ...
+]
+
 ```
 
 #### Resources

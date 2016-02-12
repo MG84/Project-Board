@@ -161,3 +161,8 @@ This file contains all the stories you have planned to work on during the sprint
   ...
 ]
 ```
+
+
+## Special Thanks
+
+I'd like to thank Babaiola's Team for having created the very first version of the board from which I based this project.

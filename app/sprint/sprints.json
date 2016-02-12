@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "goal": "Sprint One Goal",
+    "estimation": "10",
+    "start": "08/02/2016",
+    "end": "22/02/2016",
+    "demo": "22/02/2016",
+    "stories": [
+      {
+        "id": "1",
+        "name": "Organize and execute 6 guided tours",
+        "category": "Operation",
+        "importance": "100",
+        "estimation": "4",
+        "demo": "Screenshot new booked tours",
+        "notes": "We have to make those tours more appealing",
+        "links": "",
+        "assigned": "Mario 3, Luigi 1"
+      },
+      {
+        "id": "2",
+        "name": "Increase by 60% the returning user",
+        "category": "BIZ DEV",
+        "importance": "80",
+        "estimation": "3",
+        "demo": "Show Data",
+        "notes": "Ask Uncle Sam for some useful tips",
+        "links": "",
+        "assigned": "Luigi 3"
+      }
+    ]
+  }
+]

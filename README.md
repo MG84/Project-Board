@@ -109,59 +109,45 @@ In resource.html add the links to your social network profiles
 ### Sprint
 
 Use the sprints.json file (sprint/sprints/sprint.json) to add a Sprint
-to your project Board
+and the related stories to your project Board
 
 ```json
 [
   {
     "id": "1",
-    "goal": "<Sprint Goal>",
-    "estimation": "<Estimation_MD>",
+    "goal": "Sprint One Goal",
+    "estimation": "10",
     "start": "08/02/2016",
-    "end": "18/02/2016",
-    "demo": "18/02/2016"
+    "end": "22/02/2016",
+    "demo": "22/02/2016",
+    "stories": [
+      {
+        "id": "1",
+        "name": "Organize and execute 6 guided tours",
+        "category": "Operation",
+        "importance": "100",
+        "estimation": "4",
+        "demo": "Screenshot new booked tours",
+        "notes": "We have to make those tours more appealing",
+        "links": "",
+        "assigned": "Mario 3, Luigi 1"
+      },
+      {
+        "id": "2",
+        "name": "Increase by 60% the returning user",
+        "category": "BIZ DEV",
+        "importance": "80",
+        "estimation": "3",
+        "demo": "Show Data",
+        "notes": "Ask Uncle Sam for some useful tips",
+        "links": "",
+        "assigned": "Luigi 3"
+      }
+    ]
   },
   ...
 ]
 ```
-Create a Sprint folder inside sprint/sprints (i.e. sprint/sprints/sprintN, where
-N is the sprint number) with two files:
-- sprint_N.json (where N is the sprint number)
-- stories.json
-
-sprint_N.json
-This file contains the information of the sprint you've just added in
-the sprint.json file.
-```json
-{
-  "id": "1",
-  "goal": "<Sprint Goal>",
-  "estimation": "<Estimation_MD>",
-  "start": "08/02/2016",
-  "end": "18/02/2016",
-  "demo": "18/02/2016"
-}
-```
-
-stories.json
-This file contains all the stories you have planned to work on during the sprint
-```json
-[
-  {
-    "id": "1",
-    "name": "Story name",
-    "category": "Category name (DEV, BIZ DEV, TEAM...)",
-    "importance": "In a range from 0 to 100",
-    "estimation": "Estimation in MD",
-    "demo": "What are you going to show at the demo for this story",
-    "notes": "additional notes, if any",
-    "links": "important links, if any",
-    "assigned": "Member and MD, Member and MD"
-  },
-  ...
-]
-```
-
 
 ## Special Thanks
 

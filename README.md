@@ -108,7 +108,7 @@ In resource.html add the links to your social network profiles
 
 ### Sprint
 
-Use the sprints.json file (sprint/sprints/sprint.json) to add a Sprint
+Use the sprints.json file (sprint/sprints.json) to add a Sprint
 and the related stories to your project Board
 
 ```json

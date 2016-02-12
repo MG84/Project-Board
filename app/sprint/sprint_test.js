@@ -11,7 +11,8 @@ describe('projectBoard.sprint module', function() {
     // with the same name as the service in order to avoid a name conflict.
     beforeEach(inject(function(_$httpBackend_, $rootScope, $controller){
       $httpBackend = _$httpBackend_;
-      $httpBackend.expectGET('sprint/sprints/sprints.json').respond([{name:'Sprint #1'}, {name:'Sprint #2'}]);
+      // very poor... Lord please forgive me..
+      $httpBackend.expectGET('sprint/sprints/sprints.json?nocache='+(new Date()).getTime()-1).respond([{name:'Sprint #1'}, {name:'Sprint #2'}]);
 
       scope = $rootScope.$new();
       ctrl = $controller('SprintCtrl', {$scope:scope});

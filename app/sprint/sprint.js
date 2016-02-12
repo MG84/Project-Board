@@ -14,7 +14,8 @@ angular.module('projectBoard.sprint', ['ngRoute'])
 }])
 
 .controller('SprintCtrl', ['$scope', '$http', function($scope, $http) {
-    $http.get('sprint/sprints/sprints.json').success(function(data){
+    $http.get('sprint/sprints/sprints.json?nocache='+(new Date()).getTime())
+      .success(function(data){
         $scope.sprints = data;
     });
 }])
@@ -23,10 +24,12 @@ angular.module('projectBoard.sprint', ['ngRoute'])
     var sprintId = $routeParams.sprintId;
     var sprintPath = 'sprint/sprints/sprint'+ sprintId + '/';
 
-    $http.get(sprintPath + 'sprint_' + $routeParams.sprintId + '.json').success(function(data) {
+    $http.get(sprintPath + 'sprint_' + $routeParams.sprintId + '.json?nocache='+(new Date()).getTime())
+      .success(function(data) {
         $scope.sprint = data;
     });
-    $http.get(sprintPath + 'stories.json').success(function(data){
+    $http.get(sprintPath + 'stories.json?nocache='+(new Date()).getTime())
+      .success(function(data){
         $scope.stories = data;
     });
 

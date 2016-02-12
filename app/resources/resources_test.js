@@ -11,7 +11,8 @@ describe('projectBoard.resources module', function() {
     // with the same name as the service in order to avoid a name conflict.
     beforeEach(inject(function(_$httpBackend_, $rootScope, $controller){
       $httpBackend = _$httpBackend_;
-      $httpBackend.expectGET('resources/resources.json').respond([{name: 'resource 1'}, {name: 'resource 2'}]);
+      // very poor... Lord please forgive me..
+      $httpBackend.expectGET('resources/resources.json?nocache='+(new Date()).getTime()-1).respond([{name: 'resource 1'}, {name: 'resource 2'}]);
 
       scope = $rootScope.$new();
       ctrl = $controller('ResourcesCtrl', {$scope:scope});

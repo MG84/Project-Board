@@ -23,12 +23,17 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
       { link : '#/resources', label : 'Resources' }
     ];
 
-    for (var i=0; i < $scope.tabs.length; i++) {
-        if ($scope.tabs[i].link == '#'+$location.$$path) {
-            $scope.selectedTab = $scope.tabs[i];
+    if("#"+$location.$$path === "#") {
+        $scope.selectedTab = $scope.tabs[0];
+    }
+    else {
+        for (var i=0; i < $scope.tabs.length; i++) {
+            if ($scope.tabs[i].link == '#'+$location.$$path) {
+                $scope.selectedTab = $scope.tabs[i];
+            }
         }
     }
-
+    
     $scope.setSelectedTab = function(tab) {
       $scope.selectedTab = tab;
     }

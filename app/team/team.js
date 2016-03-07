@@ -10,7 +10,7 @@ angular.module('projectBoard.team', ['ngRoute'])
 }])
 
 .controller('TeamCtrl', ['$scope', '$http', function ($scope, $http) {
-  $http.get('team/team.json?nocache='+(new Date()).getTime())
+  $http.get('team/team.json?nocache='+(new Date()).getTime(), {responseType:'json'})
     .success(function (data) {
       $scope.team = data;
   });

@@ -14,7 +14,7 @@ angular.module('projectBoard.sprint', ['ngRoute'])
 }])
 
 .controller('SprintCtrl', ['$scope', '$http', function($scope, $http) {
-    $http.get('sprint/sprints.json?nocache='+(new Date()).getTime())
+    $http.get('sprint/sprints.json?nocache='+(new Date()).getTime(), {responseType:'json'})
       .success(function(data){
         $scope.sprints = data;
     });

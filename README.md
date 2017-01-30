@@ -186,6 +186,6 @@ and the related stories to your project Board
 ]
 ```
 
-## Special Thanks
+## Notes
 
 Proudly inspired by Babaiola's project board.

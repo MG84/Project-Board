@@ -30,7 +30,7 @@
 </head>
 <body>
 
-
+    
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
@@ -44,11 +44,13 @@
       </div>
     </div>
 
-  <ul class="nav nav-tabs" ng-controller="TabsCtrl">
-    <li ng-class="tabClass(tab)" ng-repeat="tab in tabs" tab="tab">
-      <a href="{{tab.link}}" ng-click="setSelectedTab(tab)">{{tab.label}}</a>
-    </li>
-  </ul>
+  <div class="container">
+    <ul class="nav nav-tabs" ng-controller="TabsCtrl">
+      <li class="col-sm-3 tab" ng-class="tabClass(tab)" ng-repeat="tab in tabs" tab="tab">
+        <a href="{{tab.link}}" ng-click="setSelectedTab(tab)">{{tab.label}}</a>
+      </li>
+    </ul>
+  </div>
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -56,7 +58,7 @@
 
   <div ng-view></div>
   <br/>
-  <div>MG Project Board app: v<span app-version></span></div>
+  <div>LE Project Board: <span app-version></span></div>
   <!-- In production use:-->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
 

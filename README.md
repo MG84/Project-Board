@@ -6,10 +6,11 @@
 - clone
 - brew install node
 - npm install -g grunt-cli
+- npm install express
 
 ## Run
 
-- npm start
+- node server
 
 ## Tests
 

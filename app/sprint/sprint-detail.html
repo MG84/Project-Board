@@ -37,37 +37,59 @@
 </div>
 <br/>
 <br/>
-<div class="container-story">
-    <div class="row">
-        <div ng-repeat="story in stories | filter:query" class="story-box col-md-4">
-            <br/>
 
-            <div align="center">
-                <strong>ID: {{story.id}}</strong>
-            </div>
-            <div style="float: left;">
-                <strong>Weight:</strong> {{story.importance}}
-            </div>
-            <div style="float: right;">
-                <strong>MD:</strong> {{story.estimation}}
-            </div>
-            <br/>
-            <hr>
-            <div align="center">
-                <h4>{{story.name}}</h4>
-            </div>
-            <hr/>
-            <div align="center"><strong>Category:</strong><br/>{{story.category}}</div>
-            <hr/>
-            <div align="center"><strong>Demo:</strong><br/>{{story.demo}}</div>
-            <hr/>
-            <div align="left">
-                Notes: {{story.notes}}<br/>
-                Links: {{story.links}}
-            </div>
-            <div align="right">{{story.assigned}}</div>
+<div class="container">
+    <div ng-repeat="story in stories | filter:query">
+        <div class="row">
+            <div class="story-sheet col-sm-12">
+                <div class="row">
+                    <div class="col-sm-2 story-id-box" ng-style="getStatusColor(story.status)">
+                        <strong>Status:</strong> {{story.status}}
+                        <h2>ID: {{story.id}}</h2>
+                    </div>
+                    <div class="col-sm-8">
+                        <strong><i>{{story.category}}</i></strong>
+                        <h3>{{story.name}}</h3>
+                    </div>    
+                    <div clas="col-sm-2">
+                        <p>
+                        <strong>Category:</strong> {{story.category}}<br/>
+                        <strong>Weight:</strong> {{story.weight}}<br/>
+                        <strong>Man Days:</strong> {{story.estimation}}<br/>
+                    </p>
+                    </div>
+                </div>
 
+                <div class="row">
+                    <div class="col-sm-12 story-description">
+                        <p>
+                        <strong>Description:</strong> {{story.description}}
+                        </p>
+                        <strong>Demo:</strong> {{story.demo}}
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-12 story-bottom">
+                        
+                        <div class="col-sm-10">
+                            <strong>Links:</strong>
+                            <div ng-repeat="link in story.links">
+                                <a href="{{link}}" target="_blank">{{link}}</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <div ng-repeat="member in story.members">
+                                    <div>
+                                        <i>{{member.name}} = {{member.manDays}}MD</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
 </div>

@@ -115,8 +115,8 @@ and the related stories to your project Board
 [
   {
     "id": "1",
-    "goal": "Sprint One Goal",
-    "estimation": "10",
+    "goal": "Survive the First Sprint",
+    "estimation": "12",
     "start": "08/02/2016",
     "end": "22/02/2016",
     "demo": "22/02/2016",
@@ -125,30 +125,66 @@ and the related stories to your project Board
         "id": "1",
         "name": "Organize and execute 6 guided tours",
         "category": "Operation",
-        "importance": "100",
+        "description": "Organize and execute 6 guided tours / Organize and execute 6 guided tours",
+        "weight": "100",
         "estimation": "4",
+        "status": "todo",
         "demo": "Screenshot new booked tours",
-        "notes": "We have to make those tours more appealing",
-        "links": "",
-        "assigned": "Mario 3, Luigi 1"
+        "links": ["http://www.google.com", "http://www.randomurl.com"],
+        "members": [
+            {
+                "name": "Mario",
+                "manDays": "3"
+            },
+            {
+                "name": "Luigi",
+                "manDays": "1"
+            }
+        ]
       },
       {
         "id": "2",
+        "name": "Pivoting",
+        "category": "Operation",
+        "description": "Pivoting Pivoting Pivoting Pivoting Pivoting Pivoting Pivoting Pivoting",
+        "weight": "100",
+        "estimation": "5",
+        "status": "doing",
+        "demo": "Screenshot of Pivoting",
+        "links": ["http://www.google.com", "http://www.randomurl.com"],
+        "members": [
+            {
+                "name": "Mario",
+                "manDays": "3"
+            },
+            {
+                "name": "Luigi",
+                "manDays": "2"
+            }
+        ]
+      },
+      {
+        "id": "3",
         "name": "Increase by 60% the returning user",
         "category": "BIZ DEV",
-        "importance": "80",
+        "description": "Increase by 60% the returning user / Increase by 60% the returning user ",
+        "weight": "80",
         "estimation": "3",
+        "status": "done",
         "demo": "Show Data",
-        "notes": "Ask Uncle Sam for some useful tips",
-        "links": "",
-        "assigned": "Luigi 3"
+        "links": ["http://www.google.com", "http://www.randomurl.com"],
+        "members":[
+            {
+                "name": "Luigi",
+                "manDays": "3"
+            }
+        ]
       }
     ]
-  },
-  ...
+  }
 ]
 ```
 
 ## Special Thanks
 
-I'd like to thank Babaiola's Team for having created the very first version of the board from which I based this project.
+Proudly inspired by Babaiola's project board.

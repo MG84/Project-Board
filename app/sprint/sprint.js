@@ -27,4 +27,21 @@ angular.module('projectBoard.sprint', ['ngRoute'])
         $scope.stories = $scope.sprint.stories;
       });
 
+    $scope.getStatusColor = function(status) {
+      if (status == 'todo') {
+        return {
+          'background-color': 'red'
+        }
+      } else if (status == 'doing') {
+        return {
+          'background-color': 'yellow'
+        }
+      } else if (status == 'done') {
+        return {
+          'background-color': 'green'
+        }
+      }
+
+    }
+
 }]);

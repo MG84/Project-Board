@@ -46,3 +46,4 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
       }
     }
 }]);
+

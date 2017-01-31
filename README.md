@@ -120,7 +120,7 @@ and the related stories to your project Board
     "estimation": "12",
     "start": "08/02/2016",
     "end": "22/02/2016",
-    "demo": "22/02/2016",
+    "needs": "We are still ok",
     "stories": [
       {
         "id": "1",
@@ -182,7 +182,8 @@ and the related stories to your project Board
         ]
       }
     ]
-  }
+  },
+  ...
 ]
 ```
 

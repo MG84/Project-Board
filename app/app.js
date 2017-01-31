@@ -12,14 +12,14 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
   $routeProvider.otherwise({redirectTo: '/team'});
 
   // make this demo work in plunker
-  $locationProvider.html5Mode(false);
+  // $locationProvider.html5Mode(false);
 
 }])
 
 .controller('TabsCtrl', ['$scope', '$location', function($scope, $location) {
     $scope.tabs = [
       { link : '#/team', label : 'Team' },
-      { link : '#/sprint', label : 'Sprint' },
+      { link : '#/sprint', label : 'Sprints' },
       { link : '#/resources', label : 'Resources' }
     ];
 
@@ -39,6 +39,11 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
     }
 
     $scope.tabClass = function(tab) {
+      if (tab.label == 'Home') {
+        return "col-sm-2";
+      } else {
+        return "col-sm-3";
+      }
       if ($scope.selectedTab == tab) {
         return "active";
       } else {

@@ -1,45 +1,45 @@
 <div ng-controller="SprintCtrl">
-	<br/>
-	<br/>
-	<div>
-		Search: <input ng-model="query">
-	</div>
-	<br/>
-	<br/>
-	<br/>
-
 	<div class="container">
+        <div class="page-header">
+            <h1 class="text-center">Our Sprints</h1>
+        </div>
+		<br/>
+		<br/>
+		<div>
+			Search: <input ng-model="query">
+		</div>
+		<br/>
+		<br/>
+		<br/>
+
+	
 		<div class="row">
 			<div class="col-sm-12">
-				<div ng-repeat="sprint in sprints | filter:query" class="sprint-box col-sm-3">
-					<br/>
-					<div style="float: left;">
-						<strong>ID:</strong> {{sprint.id}}
+					<a href="#/sprint/{{sprint.id}}" ng-repeat="sprint in sprints | filter:query">
+					<div class="card col-sm-3">
+					
+						{{sprint.id}}
+						<div>
+							<h4>{{sprint.goal}}</h4>
+						</div>
+						<div class="row card-elements">
+							<div class="col-sm-8 col-sm-offset-2" style="background-color: white; color: black;">
+								<strong>MD: </strong>{{sprint.estimation}}
+							</div>
+							<br/>
+							<br/>
+							<div class="col-sm-8 col-sm-offset-2" style="background-color: white; color: black;">
+								<strong>Start: </strong>{{sprint.start}}
+							</div>
+							<br/>
+							<br/>
+							<div class="col-sm-8 col-sm-offset-2" style="background-color: white; color: black;">
+								<strong>End: </strong>{{sprint.end}}
+							</div>
+							<br/>
+						</div>
 					</div>
-					<div style="float: right;">
-						<strong>MD:</strong>
-						{{sprint.estimation}}
-					</div>
-					<br/>
-					<hr>
-					<div align="center">
-						<a href="#/sprint/{{sprint.id}}">{{sprint.goal}}</a>
-					</div>
-					<hr>
-					<div style="float: left;">
-						<strong>Start:</strong> {{sprint.start}}
-					</div>
-					<div style="float: right;">
-						<strong>End:</strong> {{sprint.end}}
-					</div>
-					<br/>
-					<br/>
-					<p align="center">
-						<a class="btn btn-default" href="#/sprint/{{sprint.id}}" role="button">
-							View details &raquo;
-						</a>
-					</p>
-				</div>
+				</a>
 			</div>
 		</div>
 	</div>

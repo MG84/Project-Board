@@ -46,7 +46,7 @@
 
   <div class="container">
     <ul class="nav nav-tabs" ng-controller="TabsCtrl">
-      <li class="col-sm-3 tab" ng-class="tabClass(tab)" ng-repeat="tab in tabs" tab="tab">
+      <li class="tab" ng-class="tabClass(tab)" ng-repeat="tab in tabs" tab="tab">
         <a href="{{tab.link}}" ng-click="setSelectedTab(tab)">{{tab.label}}</a>
       </li>
     </ul>

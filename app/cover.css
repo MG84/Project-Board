@@ -24,17 +24,43 @@ a:hover {
  * Base structure
  */
 
-html,
+html, 
 body {
-  height: 80%;
-  /* background-color: #F0FAFF; */
-  background-color: #F5FAFF;
-}
-body {
-  color: #000;
+  background: #fff;
   text-align: center;
- /* text-shadow: 0 1px 3px rgba(0,0,0,.5); */
 }
+
+/* cards */
+.card {
+  background: #009688;
+  color: white;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+}
+
+.card a,
+.card a:visited {
+  color: white;
+}
+
+.card {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  margin-left: 4em;
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-elements {
+  margin-top: 4em;
+}
+
 
 .cover-heading {
     color: white;

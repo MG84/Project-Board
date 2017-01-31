@@ -30,6 +30,30 @@ body {
   text-align: center;
 }
 
+.nav>li>a:focus, 
+.nav>li>a:hover, {
+  background-color: #009688 !important;
+}
+
+.nav-tabs {
+  margin-top: -41px;
+}
+
+.tab a {
+  background-color: black;
+  color: #FFF;
+}
+
+.tab a:hover {
+  background-color: #009688 !important;
+  color: #FFF;
+}
+
+.nav-tabs>li>a:active,  {
+  background-color: #009688 !important;
+  color: #FFF; 
+}
+
 /* cards */
 .card {
   background: #009688;
